@@ -1,7 +1,7 @@
 {
   "name": "zyuzko-web",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,10 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": "~20.10.0",
+    "npm": "~10.2.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
