@@ -17,7 +17,6 @@
   --blackcurrant-black: #1F1534;
   --primary-black: #000;
 
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,8 +27,11 @@
     color: var(--primary-color);
     background-color: var(--primary-white);
   }
+  a {
+    text-decoration: none;
+  }
   a:hover {
-    color: var(--primary-blue);
+    color: var(--midnight-black);
   }
   button {
     background-color: var(--primary-white);
