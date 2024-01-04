@@ -1,8 +1,9 @@
-import HCBanner from "../components/HCBanner/HCBanner";
+import { appStrings } from '../strings';
 
 function Home() {
     return(
       <>
+        {appStrings['bannerTitle1']}
       </>
     );
   }
