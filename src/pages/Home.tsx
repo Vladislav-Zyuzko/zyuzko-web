@@ -1,13 +1,9 @@
-import HCButton from "../components/HCbutton/HCButton";
+import HCBanner from "../components/HCBanner/HCBanner";
 
 function Home() {
-    return (
-      <div>
-        <br />
-        <HCButton title={'Download'} isOutlined={true} icon={'src/assets/images/icons/arrow.svg'} />
-        <br />
-        <HCButton title={'Consult today'} isOutlined={false} />
-      </div>
+    return(
+      <>
+      </>
     );
   }
   
