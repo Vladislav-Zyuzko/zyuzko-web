@@ -1,7 +1,12 @@
+import HCButton from "../components/HCbutton/HCButton";
+
 function Home() {
     return (
       <div>
-        <h2>Home page to be determined</h2>
+        <br />
+        <HCButton title={'Download'} isOutlined={true} icon={'src/assets/images/icons/arrow.svg'} />
+        <br />
+        <HCButton title={'Consult today'} isOutlined={false} />
       </div>
     );
   }
