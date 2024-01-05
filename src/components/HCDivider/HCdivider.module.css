@@ -1,0 +1,25 @@
+.HCDivider {
+    background-color: var(--primary-black);
+    height: 2px;
+    width: 56px;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .HCDivider {
+        width: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .HCDivider {
+        width: 26.9px;
+    }
+}
+
+@media (max-width: 480px) {
+    .HCDivider {
+        width: 16.8px;
+    }
+}
+

@@ -1,4 +1,5 @@
 import HCButton from '../HCbutton/HCButton';
+import HCDivider from '../HCDivider/HCDivider';
 import HCBannerCss from './HCbanner.module.css';
 
 function HCBanner(props: HCBannerProps) {
@@ -7,7 +8,7 @@ function HCBanner(props: HCBannerProps) {
             <div className={props.isMainBanner ? HCBannerCss.mainBannerTitle : HCBannerCss.bannerTitle}>
                 {props.title}
             </div>
-            {props.isMainBanner === false && <div className={HCBannerCss.bannerDivider} />}
+            {props.isMainBanner === false && <HCDivider />}
             <div className={props.isMainBanner ? HCBannerCss.mainBannerText : HCBannerCss.bannerText}>
                 {props.bodyText}
             </div>
