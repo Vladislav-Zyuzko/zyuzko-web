@@ -13,13 +13,13 @@
 
 @media (max-width: 768px) {
     .HCDivider {
-        width: 26.9px;
+        width: 32px;
     }
 }
 
 @media (max-width: 480px) {
     .HCDivider {
-        width: 16.8px;
+        width: 27px;
     }
 }
 
