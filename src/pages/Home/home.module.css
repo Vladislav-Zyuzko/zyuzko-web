@@ -46,6 +46,41 @@
     margin-top: 40px;
 }
 
+#servicesTitle {
+    width: 100%;
+    margin-top: 192px;
+    margin-bottom: 33px;
+}
+
+#servicesDescription {
+    display: flex;
+    width: 66%;
+    padding: 0% 17%;
+    color: var(--primary-gray);
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#servicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 34px;
+    column-gap: 37px;
+    margin-top: 80px;
+}
+
+#servicesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+}
+
 @media (max-width: 1200px) {
     #banner1 {
         width: 85%;
@@ -83,6 +118,9 @@
     }
 
     #banner2 {
+        width: 85%;
+        margin-left: 6%;
+        margin-right: 9%;
         margin-top: 106px;
     }
 
@@ -97,26 +135,95 @@
     #banner3 button{
         margin-top: 19px;
     }
+
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 18px;
+        margin-top: 50px;
+    }
+
+    #servicesTitle {
+        margin-top: 90px;
+        margin-bottom: 33px;
+    }
+
+    #servicesDescription {
+        width: 75%;
+        padding: 0% 12.5%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 480px) {
     #banner1 {
-        margin-top: 25px;
+        width: 95%;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 45px;
+    }
+
+    #banner1 img {
+        width: 45.82%;
     }
 
     #banner2 {
+        width: 95%;
+        margin-left: 1.5%;
+        margin-right: 3.5%;
         margin-top: 66px;
     }
+
+    #banner2 img {
+        width: 45%;
+    }
+    
 
     #banner2 button {
         margin-top: 21px;
     }
 
     #banner3 {
+        width: 95%;
+        margin-left: 3.66%;
+        margin-right: 2.34%;
         margin-top: 69px;
+    }
+
+    #banner3 img {
+        width: 48.5%;
     }
 
     #banner3 button{
         margin-top: 12px;
+    }
+
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 14px;
+        column-gap: 10px;
+        margin-top: 40px;
+    }
+
+    #servicesDescription {
+        width: 80%;
+        padding: 0% 10%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 32px;
     }
 }

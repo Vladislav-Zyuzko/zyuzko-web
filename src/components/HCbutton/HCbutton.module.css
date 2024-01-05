@@ -51,11 +51,11 @@
     transition: 0.2s;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .outlinedButton, .fillButton {
         width: 150px;
         height: 42px;
-        font-size: 13.5px;
+        font-size: 16px;
     }
 
     .HCicon {
@@ -65,10 +65,10 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .outlinedButton, .fillButton {
-        width: 96px;
-        height: 27px;
-        font-size: 10px;
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
     }
 }
