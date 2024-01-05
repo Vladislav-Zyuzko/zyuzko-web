@@ -42,33 +42,7 @@
     max-width: 460px;
 }
 
-@media (max-width: 1200px) {
-    .mainBannerTitle {
-        font-size: 36px;
-        max-width: 320px;
-    }
 
-    .bannerTitle {
-        font-size: 34px;
-        margin-bottom: 23px;
-        max-width: 240px;
-    }
-
-    .mainBannerText {
-        font-size: 28px;
-        margin-top: 18px;
-        line-height: 24px;
-        margin-bottom: 33.75px;
-        max-width: 320px;
-    }
-
-    .bannerText {
-        font-size: 13px;
-        margin-top: 23px;
-        line-height: 22px;
-        max-width: 345px;
-    }
-}
 
 @media (max-width: 768px) {
     .mainBannerTitle {

@@ -1,0 +1,124 @@
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background-color: var(--primary-white);
+    overflow: hidden;
+    box-shadow: 10px 40px 50px 0px var(--shadow-white);
+}
+
+.articleContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+    margin-left: 33px;
+    margin-right: 50px;
+}
+
+.articleTitle {
+    color: var(--primary-black);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px; 
+}
+
+.articleDescription {
+    margin-top: 12px;
+    color: var(--primary-gray);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.articleLink {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    column-gap: 10px;
+}
+
+.articleLink a {
+    text-decoration: none;
+    color: var(--aqua-blue);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    transition: 0.3s;
+}
+
+.articleLink a:hover {
+    text-decoration: none;
+    color: var(--midnight-black);
+    transition: 0.3s;
+}
+
+.articleLinkIcon {
+    margin-top: 2px;
+    width: 14.5px;
+    height: 9px;
+}
+
+@media (max-width: 768px) {
+    .articleContainer {
+        width: 290px;
+        height: 430px;
+    }
+    
+    .articleContent {
+        margin-top: 21px;
+        margin-left: 23px;
+        margin-right: 30px;
+    }
+    
+    .articleTitle {
+        font-size: 19px;
+        line-height: 32px; 
+    }
+    
+    .articleDescription {
+        margin-top: 12px;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    
+    .articleLink {
+        margin-top: 15px;
+    }
+    
+    .articleLink a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .articleContainer {
+        width: 160px;
+        height: 350px;
+    }
+    
+    .articleContent {
+        margin-top: 21px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .articleTitle {
+        font-size: 16px;
+        line-height: 20px; 
+    }
+    
+    .articleDescription {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    .articleLink a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+}

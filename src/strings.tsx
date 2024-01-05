@@ -31,12 +31,13 @@ export const appStrings = {
     sliderText: "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
 
     articlesTitle: "Check out our latest article",
-    articlesButton: "View all",
+    activeArticlesButton: "View all",
+    hideArticlesButton: "Hide",
     articleButton: "Read more",
     articleTitle1: "Disease detection, check up in the laboratory",
     articleTitle2: "Herbal medicines that are safe for consumption",
     articleTitle3: "Natural care for healthy facial skin",
-    acticleText1: "In this case, the role of the health laboratory is very important to do a disease detection...",
+    articleText1: "In this case, the role of the health laboratory is very important to do a disease detection...",
     articleText2: "Herbal medicine is very widely used at this time because of its very good for your health...",
     articleText3: "A healthy lifestyle should start from now and also for your skin health. There are some...",
 
