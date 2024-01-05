@@ -1,3 +1,3 @@
 interface HCTitleProps {
-    title: String,
+    title: string,
 }

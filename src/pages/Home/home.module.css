@@ -46,6 +46,42 @@
     margin-top: 40px;
 }
 
+#servicesTitle {
+    width: 100%;
+    margin-top: 192px;
+    margin-bottom: 33px;
+}
+
+#servicesDescription {
+    display: flex;
+    width: 66%;
+    padding: 0% 17%;
+    color: var(--primary-gray);
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#servicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 34px;
+    column-gap: 37px;
+    margin-top: 80px;
+    
+}
+
+#servicesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+}
+
 @media (max-width: 1200px) {
     #banner1 {
         width: 85%;
