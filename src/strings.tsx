@@ -1,6 +1,6 @@
 export const appStrings = {
     bannerTitle1: "Virtual healthcare for you",
-    bannerTitle2: "Leading healthcare provaders",
+    bannerTitle2: "Leading healthcare providers",
     bannerTitle3: "Download our mobile apps",
     bannerText1: "Our service provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
     bannerText2: "We provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver",

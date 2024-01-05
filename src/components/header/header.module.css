@@ -65,10 +65,6 @@
 }
 
 @media (max-width: 480px) {
-    .logo {
-        font-size: 18px;
-    }
-
     .nav {
         min-width: 275px;
     }
@@ -78,10 +74,10 @@
     }
 
     .link {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .current-link {
-        font-size: 14px
+        font-size: 13px
     }
 }

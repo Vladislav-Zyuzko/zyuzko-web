@@ -1,18 +1,19 @@
 import HCButton from '../HCbutton/HCButton';
-import HCBunnerCss from './HCbanner.module.css';
+import HCBannerCss from './HCbanner.module.css';
 
 function HCBanner(props: HCBannerProps) {
-    return <section className={props.isMainBanner ? HCBunnerCss.mainBanner : HCBunnerCss.banner}>
+    return <section className={HCBannerCss.banner} style={props.isReversed ? { flexDirection: 'row-reverse' } : {}}>
         <div>
-            <div className={HCBunnerCss.bannerTitle}>
+            <div className={props.isMainBanner ? HCBannerCss.mainBannerTitle : HCBannerCss.bannerTitle}>
                 {props.title}
             </div>
-            <div className={HCBunnerCss.bannerText}>
+            {props.isMainBanner === false && <div className={HCBannerCss.bannerDivider} />}
+            <div className={props.isMainBanner ? HCBannerCss.mainBannerText : HCBannerCss.bannerText}>
                 {props.bodyText}
             </div>
             <HCButton title={props.buttonText} isOutlined={!props.isMainBanner} icon={props.buttonIcon}/>
         </div>
-        <img src={props.bannerImg} alt="banner-img" className={HCBunnerCss.bannerImg}/>
+        <img src={props.bannerImg} alt="banner-img" />
     </section>
 }
 

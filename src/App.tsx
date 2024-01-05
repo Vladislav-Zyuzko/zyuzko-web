@@ -1,6 +1,6 @@
 import { Routes, Route, Outlet} from "react-router-dom";
 import Header from "./components/header/Header";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import FindDoctor from "./pages/FindDoctor";
 import Apps from "./pages/Apps";
 import Testimonials from "./pages/Testimonials";
