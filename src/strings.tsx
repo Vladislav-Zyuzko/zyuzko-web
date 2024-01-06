@@ -1,4 +1,7 @@
 export const appStrings = {
+    appTitle: 'HealthCare',
+    appLogoText: 'T',
+    
     bannerTitle1: "Virtual healthcare for you",
     bannerTitle2: "Leading healthcare providers",
     bannerTitle3: "Download our mobile apps",

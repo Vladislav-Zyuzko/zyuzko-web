@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { appStrings } from '../../strings';
 import HCBanner from '../../components/HCBanner/HCBanner';
 import HCButton from '../../components/HCbutton/HCButton';
 import HCService from '../../components/HCService/HCService';
 import HCTitle from '../../components/HCTitle/HCTitle';
 import HCArticle from '../../components/HCArticle/HCArticle';
+import Footer from '../../components/footer/Footer';
 import HomeCss from './home.module.css';
 
 function Home() {
@@ -59,6 +60,7 @@ function Home() {
         <div id={HomeCss.articlesButtonContainer}>
             <HCButton title={showAll ? appStrings.hideArticlesButton : appStrings.activeArticlesButton} isOutlined={true} onClick={handleClick}/>
         </div>
+        <Footer />
       </>
     );
   }
