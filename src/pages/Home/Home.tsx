@@ -47,7 +47,7 @@ function Home() {
         <div id={HomeCss.banner3}>
           {HCBanner(banners[2])}
         </div>
-        <div>
+        <div id={HomeCss.sliderContainer}>
           <HCSlider title={appStrings.sliderTitle} color={appColors.primaryWhite} />
         </div>
         <div id={HomeCss.articlesTitle}>
