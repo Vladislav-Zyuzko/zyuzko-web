@@ -8,6 +8,7 @@ import HCArticle from '../../components/HCArticle/HCArticle';
 import Footer from '../../components/footer/Footer';
 import HomeCss from './home.module.css';
 import banners from '../../data/HCBannersData';
+import titles from '../../data/HCTitleData';
 import services from '../../data/HCServicesData';
 import articles from '../../data/HCArticlesData';
 
@@ -26,7 +27,7 @@ function Home() {
         </div>
         <article>
           <div id={HomeCss.servicesTitle}>
-            <HCTitle title={appStrings.servicesTitle} />
+            {HCTitle(titles[0])}
           </div>
           <div id={HomeCss.servicesDescription}>
             {appStrings.servicesDescription}
@@ -45,7 +46,7 @@ function Home() {
           {HCBanner(banners[2])}
         </div>
         <div id={HomeCss.articlesTitle}>
-          <HCTitle title={appStrings.articlesTitle} />
+          {HCTitle(titles[1])}
         </div>
         <section id={HomeCss.articlesContainer}>
           {articles.map((item, index) => {

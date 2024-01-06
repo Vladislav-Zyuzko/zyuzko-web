@@ -8,7 +8,7 @@ function HCBanner(props: HCBannerProps) {
             <div className={props.isMainBanner ? HCBannerCss.mainBannerTitle : HCBannerCss.bannerTitle}>
                 {props.title}
             </div>
-            {props.isMainBanner === false && <HCDivider />}
+            {props.isMainBanner === false && <HCDivider color='primary-black'/>}
             <div className={props.isMainBanner ? HCBannerCss.mainBannerText : HCBannerCss.bannerText}>
                 {props.bodyText}
             </div>
