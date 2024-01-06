@@ -1,3 +1,4 @@
+import { appColors } from '../../colors';
 import HCButton from '../HCbutton/HCButton';
 import HCDivider from '../HCDivider/HCDivider';
 import HCBannerCss from './HCbanner.module.css';
@@ -8,7 +9,7 @@ function HCBanner(props: HCBannerProps) {
             <div className={props.isMainBanner ? HCBannerCss.mainBannerTitle : HCBannerCss.bannerTitle}>
                 {props.title}
             </div>
-            {props.isMainBanner === false && <HCDivider color='primary-black'/>}
+            {props.isMainBanner === false && <HCDivider color={appColors.primaryBlack}/>}
             <div className={props.isMainBanner ? HCBannerCss.mainBannerText : HCBannerCss.bannerText}>
                 {props.bodyText}
             </div>

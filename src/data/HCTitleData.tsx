@@ -1,13 +1,14 @@
 import { appStrings } from "../strings";
+import { appColors } from "../colors";
 
 const titles: HCTitleProps[]  = [
     {
         title: appStrings.servicesTitle,
-        color: 'primary-black',
+        color: appColors.primaryBlack,
     },
     {
         title: appStrings.articlesTitle,
-        color: 'primary-black',
+        color: appColors.primaryBlack,
     }
 ]
 
