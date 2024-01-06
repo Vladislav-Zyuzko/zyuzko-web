@@ -1,0 +1,24 @@
+.linkColumnContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.linkColumnTitle {
+    color: var(--primary-white);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.columnLink {
+    color: var(--primary-white);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    transition: 0.3s;
+}
+
+.columnLink:hover {
+    color: var(--midnight-black);
+    transition: 0.3s;
+}
