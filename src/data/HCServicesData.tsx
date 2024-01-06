@@ -6,7 +6,7 @@ import detailsInfoImg from '../assets/images/services/details_info.png';
 import pharmacyImg from '../assets/images/services/pharmacy.png';
 import trackingImg from '../assets/images/services/tracking.png';
 
-const services: HCServiceProps[] = [
+const services: HCArticleProps[] = [
     {
         title: appStrings.serviceTitle1,
         description: appStrings.serviceDescription1,

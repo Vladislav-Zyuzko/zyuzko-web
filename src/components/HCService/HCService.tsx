@@ -1,6 +1,6 @@
 import HCServiceCss from './HCservice.module.css';
 
-function HCService(props: HCServiceProps) {
+function HCService(props: HCArticleProps) {
     return <button className={HCServiceCss.serviceButton}>
         <div className={HCServiceCss.serviceImageContainer}>
             <img src={props.imageUrl} alt="service-image" className={HCServiceCss.serviceImage}/>

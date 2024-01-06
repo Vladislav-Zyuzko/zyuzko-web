@@ -1,4 +1,3 @@
-interface HCTitleProps {
-    title: string,
-    color: string,
+interface HCTitleProps extends HCColorableProps { 
+    title: string; 
 }
