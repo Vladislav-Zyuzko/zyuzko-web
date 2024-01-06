@@ -7,7 +7,8 @@ import HCTitle from '../../components/HCTitle/HCTitle';
 import HCArticle from '../../components/HCArticle/HCArticle';
 import Footer from '../../components/footer/Footer';
 import HomeCss from './home.module.css';
-import services from '../../data/HCServiceData';
+import services from '../../data/HCServicesData';
+import articles from '../../data/HCArticlesData';
 
 function Home() {
 
@@ -46,12 +47,11 @@ function Home() {
           <HCTitle title={appStrings.articlesTitle} />
         </div>
         <section id={HomeCss.articlesContainer}>
-          <HCArticle title={appStrings.articleTitle1} description={appStrings.articleText1} imageUrl='src/assets/images/article_covers/article_cover1.png' />
-          <HCArticle title={appStrings.articleTitle2} description={appStrings.articleText2} imageUrl='src/assets/images/article_covers/article_cover2.png' />
-          <HCArticle title={appStrings.articleTitle3} description={appStrings.articleText3} imageUrl='src/assets/images/article_covers/article_cover3.png' />
-          {showAll && <HCArticle title={appStrings.articleTitle1} description={appStrings.articleText1} imageUrl='src/assets/images/article_covers/article_cover1.png' />}
-          {showAll && <HCArticle title={appStrings.articleTitle2} description={appStrings.articleText2} imageUrl='src/assets/images/article_covers/article_cover2.png' />}
-          {showAll && <HCArticle title={appStrings.articleTitle3} description={appStrings.articleText3} imageUrl='src/assets/images/article_covers/article_cover3.png' />}
+          {articles.map((item, index) => {
+            if (index < 3 || index >= 3 && showAll) {
+              return HCArticle(item)
+            }
+          })}
         </section>
         <div id={HomeCss.articlesButtonContainer}>
             <HCButton title={showAll ? appStrings.hideArticlesButton : appStrings.activeArticlesButton} isOutlined={true} onClick={handleClick}/>
