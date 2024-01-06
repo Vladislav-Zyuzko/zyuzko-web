@@ -22,3 +22,25 @@
     color: var(--midnight-black);
     transition: 0.3s;
 }
+
+@media (max-width: 768px) {
+    .linkColumnTitle {
+        font-size: 18px;
+    }
+    
+    .columnLink {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .linkColumnTitle {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    
+    .columnLink {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

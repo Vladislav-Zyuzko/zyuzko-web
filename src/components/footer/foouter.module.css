@@ -62,3 +62,82 @@
     margin-top: 110px;
     margin-left: 9.06%;
 }
+
+@media (max-width: 768px) {
+    .HCFooter {
+        height: 350px;
+        align-items: center;
+    }
+    
+    .footerTitle {
+        width: 28%;
+        margin-top: 0px;
+        margin-left: 5%;
+    }
+    
+    .footerLogoTitle {
+        font-size: 21px;
+    }
+    
+    .footerTitleDescription {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .footerTitleBrand {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+    }
+    
+    .linkColumns {
+        width: 55%;
+        margin-top: 0px;
+        margin-left: 8.06%;
+    }
+}
+
+@media (max-width: 480px) {
+    .HCFooter {
+        height: 420px;
+        justify-content: left;
+        flex-direction: column-reverse;
+    }
+    
+    .footerTitle {
+        width: 90%;
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+    
+    .footerLogoTitle {
+        font-size: 18px;
+    }
+
+    .footerLogo {
+        width: 30px;
+        height: 30px;
+        font-size: 19px;
+    }
+    
+    .footerTitleDescription {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 18px;
+        margin-bottom: 25px;
+    }
+    
+    .footerTitleBrand {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    
+    .linkColumns {
+        width: 90%;
+        margin-top: 35px;
+        margin-left: 5%;
+    }
+}
