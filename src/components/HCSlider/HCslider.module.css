@@ -21,10 +21,40 @@
     display: flex;
     align-items: center;
     height: 100%;
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .sliderController {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 31.875%;
+}
 
+.sliderArrowButton {
+    border: none;
+}
+
+.sliderArrow {
+    width: 31px;
+    height: 20px;
+}
+
+.sliderPoints {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.sliderPoint {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--cornflower-blue);
+}
+
+#leftSliderArrow {
+    transform: rotate(180deg);
 }
