@@ -1,7 +1,9 @@
+import { appStrings } from "../strings";
+
 const linkColumns: HCLinkColumnProps[] = [
     {
         title: 'Company',
-        links: ['About', 'Testimonials', 'Find a doctor', 'Apps'],
+        links: [appStrings.aboutLink, appStrings.testimonialsLink, appStrings.doctorLink, appStrings.appsLink],
     },
     {
         title: 'Region',

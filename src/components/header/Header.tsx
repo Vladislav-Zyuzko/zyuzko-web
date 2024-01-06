@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import {Link, useLocation} from "react-router-dom";
 import headerCss from './header.module.css'
+import headerLinks from '../../data/HCHeaderLinksData';
 
 function Header() {
 
@@ -23,11 +24,7 @@ function Header() {
             HealthCare
         </div>
         <nav className={headerCss.nav}>
-            <Link to="/" className={headerCss.link}>Home</Link>
-            <Link to="/find-doctor" className={headerCss.link}>Find a doctor</Link>
-            <Link to="/apps" className={headerCss.link}>Apps</Link>
-            <Link to="/testimonials" className={headerCss.link}>Testimonials</Link>
-            <Link to="/about" className={headerCss.link}>About us</Link>
+            {headerLinks.map((item) => <Link to={item.link} className={headerCss.link}>{item.title}</Link>)}
         </nav>
     </header>
 }

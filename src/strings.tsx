@@ -1,6 +1,12 @@
 export const appStrings = {
     appTitle: 'HealthCare',
     appLogoText: 'T',
+
+    rootLink: 'Home',
+    doctorLink: 'Find a doctor',
+    appsLink: 'Apps',
+    testimonialsLink: 'Testimonials',
+    aboutLink: 'About us',
     
     bannerTitle1: "Virtual healthcare for you",
     bannerTitle2: "Leading healthcare providers",
