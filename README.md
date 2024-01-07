@@ -1,9 +1,7 @@
 # Описание проекта
 
 
-<img src="images/Effective.png" alt="Effective" style="margin-right: 50px;">
-<img src="images/OmSTU.png" alt="OmSTU" style="margin-right: 50px;">
-<img src="images/React.png" alt="React">
+<img src="images/Effective.png" alt="Effective" style="margin-right: 50px;"> <img src="images/OmSTU.png" alt="OmSTU" style="margin-right: 50px;"> <img src="images/React.png" alt="React">
 
 &NewLine;
 
