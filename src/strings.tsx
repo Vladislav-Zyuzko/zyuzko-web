@@ -62,7 +62,3 @@ export const appStrings = {
     footerText: "HealthCare provides progressive, and affordable healthcare, accessible on mobile and online for everyone",
     footerBrand: "©HealthCare PTY LTD 2023. All rights reserved",
 }
-
-
-
-

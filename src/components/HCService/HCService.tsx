@@ -5,12 +5,12 @@ function HCService(props: HCArticleProps) {
         <div className={HCServiceCss.serviceImageContainer}>
             <img src={props.imageUrl} alt="service-image" className={HCServiceCss.serviceImage}/>
         </div>
-        <div className={HCServiceCss.serviceTitle}>
+        <h2 className={HCServiceCss.serviceTitle}>
             {props.title}
-        </div>
-        <div className={HCServiceCss.serviceDescription}>
+        </h2>
+        <p className={HCServiceCss.serviceDescription}>
             {props.description}
-        </div>
+        </p>
     </button>
 }
 

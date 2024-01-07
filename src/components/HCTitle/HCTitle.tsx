@@ -3,9 +3,9 @@ import HCTitleCss from './HCtitle.module.css';
 
 function HCTitle (props: HCTitleProps) {
     return <div className={HCTitleCss.HCTitleContainer}>
-        <div className={HCTitleCss.HCTitle} style={{ color: `var(--${props.color})` }}>
+        <h1 className={HCTitleCss.HCTitle} style={{ color: `var(--${props.color})` }}>
             {props.title} 
-        </div>
+        </h1>
         <HCDivider color={props.color}/>
     </div>
 }

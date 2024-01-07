@@ -8,16 +8,16 @@ function Footer() {
         <div className={FooterCss.footerTitle}>
             <div className={FooterCss.footerLogoContainer}>
                 <div className={FooterCss.footerLogo}>{appStrings.appLogoText}</div>
-                <div className={FooterCss.footerLogoTitle}>
+                <h2 className={FooterCss.footerLogoTitle}>
                     {appStrings.appTitle}
-                </div>
+                </h2>
             </div>
-            <div className={FooterCss.footerTitleDescription}>
+            <p className={FooterCss.footerTitleDescription}>
                 {appStrings.footerText}
-            </div>
-            <div className={FooterCss.footerTitleBrand}>
+            </p>
+            <p className={FooterCss.footerTitleBrand}>
                 {appStrings.footerBrand}
-            </div>
+            </p>
         </div>
         <div className={FooterCss.linkColumns}>
             {linkColumns.map((item) => HCLinkColumn(item))}
