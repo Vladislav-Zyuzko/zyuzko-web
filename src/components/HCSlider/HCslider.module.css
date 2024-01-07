@@ -1,0 +1,140 @@
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    row-gap: 42px;
+}
+
+.sliderContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 361px;
+    background: var(--slider-gradient);
+    border-radius: 24px;
+    padding-top: 64px;
+}
+
+.sliderContentContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sliderController {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 31.875%;
+}
+
+.sliderArrowButton {
+    border: none;
+}
+
+.sliderArrow {
+    width: 31px;
+    height: 20px;
+}
+
+.sliderPoints {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.sliderPoint {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--cornflower-blue);
+}
+
+#leftSliderArrow {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1200px) {
+    .sliderContainer {
+        width: 75%;
+    }
+
+    .sliderContentContainer {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .sliderController {
+        width: 45.875%;
+    }
+
+    .sliderPoints {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sliderContainer {
+        width: 80%;
+        row-gap: 32px;
+    }
+    
+    .sliderContent {
+        padding-top: 30px;
+    }
+    
+    .sliderContentContainer {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .sliderController {
+        width: 50.875%;
+    }
+    
+    .sliderPoints {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sliderContainer {
+        width: 90%;
+        row-gap: 25px;
+    }
+
+    .sliderContent {
+        height: 250px;
+    }
+    
+    
+    .sliderController {
+        width: 75.875%;
+    }
+    
+    .sliderPoints {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .sliderPoint {
+        width: 7px;
+        height: 7px;
+    }
+
+    .sliderArrow {
+        width: 25px;
+    }
+}

@@ -7,9 +7,15 @@
 
   --primary-white: #fff;
 
+  --dim-white: rgba(255, 255, 255, 0.90);
+
+  --low-dim-white: rgba(255, 255, 255, 0.85);
+
   --shadow-white: rgba(229, 233, 246, 0.4);
 
   --primary-gradient: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+  --slider-gradient: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
 
   --primary-blue: #458FF6;
 

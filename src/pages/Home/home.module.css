@@ -104,6 +104,13 @@
     margin-bottom: 200px;
 }
 
+#sliderContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
 @media (max-width: 1200px) {
     #banner1 {
         width: 85%;
@@ -132,6 +139,10 @@
 
     #banner3 button{
         margin-top: 30px;
+    }
+
+    #sliderContainer {
+        margin-top: 200px;
     }
 }
 
@@ -198,6 +209,10 @@
     #articlesButtonContainer {
         margin-top: 50px;
         margin-bottom: 100px;
+    }
+
+    #sliderContainer {
+        margin-top: 150px;
     }
 }
 
@@ -271,6 +286,7 @@
     }
     
     #articlesContainer {
+        justify-content: left;
         column-gap: 20px;
         row-gap: 16px;
     }
@@ -278,5 +294,9 @@
     #articlesButtonContainer {
         margin-top: 35px;
         margin-bottom: 80px;
+    }
+
+    #sliderContainer {
+        margin-top: 100px;
     }
 }

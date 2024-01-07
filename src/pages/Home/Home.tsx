@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import { appStrings } from '../../strings';
+import { appColors } from '../../colors';
 import HCBanner from '../../components/HCBanner/HCBanner';
 import HCButton from '../../components/HCbutton/HCButton';
 import HCService from '../../components/HCService/HCService';
 import HCTitle from '../../components/HCTitle/HCTitle';
 import HCArticle from '../../components/HCArticle/HCArticle';
+import HCSlider from '../../components/HCSlider/HCSlider';
 import Footer from '../../components/footer/Footer';
 import HomeCss from './home.module.css';
 import banners from '../../data/HCBannersData';
@@ -44,6 +46,9 @@ function Home() {
         </div>
         <div id={HomeCss.banner3}>
           {HCBanner(banners[2])}
+        </div>
+        <div id={HomeCss.sliderContainer}>
+          <HCSlider title={appStrings.sliderTitle} color={appColors.primaryWhite} />
         </div>
         <div id={HomeCss.articlesTitle}>
           {HCTitle(titles[1])}
