@@ -58,3 +58,83 @@
 #leftSliderArrow {
     transform: rotate(180deg);
 }
+
+@media (max-width: 1200px) {
+    .sliderContainer {
+        width: 75%;
+    }
+
+    .sliderContentContainer {
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .sliderController {
+        width: 45.875%;
+    }
+
+    .sliderPoints {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .sliderContainer {
+        width: 80%;
+        row-gap: 32px;
+    }
+    
+    .sliderContent {
+        padding-top: 30px;
+    }
+    
+    .sliderContentContainer {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .sliderController {
+        width: 50.875%;
+    }
+    
+    .sliderPoints {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .sliderContainer {
+        width: 90%;
+        row-gap: 25px;
+    }
+
+    .sliderContent {
+        height: 250px;
+    }
+    
+    
+    .sliderController {
+        width: 75.875%;
+    }
+    
+    .sliderPoints {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .sliderPoint {
+        width: 7px;
+        height: 7px;
+    }
+
+    .sliderArrow {
+        width: 25px;
+    }
+}

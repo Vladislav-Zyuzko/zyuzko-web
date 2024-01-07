@@ -140,6 +140,10 @@
     #banner3 button{
         margin-top: 30px;
     }
+
+    #sliderContainer {
+        margin-top: 200px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -205,6 +209,10 @@
     #articlesButtonContainer {
         margin-top: 50px;
         margin-bottom: 100px;
+    }
+
+    #sliderContainer {
+        margin-top: 150px;
     }
 }
 
@@ -278,6 +286,7 @@
     }
     
     #articlesContainer {
+        justify-content: left;
         column-gap: 20px;
         row-gap: 16px;
     }
@@ -285,5 +294,9 @@
     #articlesButtonContainer {
         margin-top: 35px;
         margin-bottom: 80px;
+    }
+
+    #sliderContainer {
+        margin-top: 100px;
     }
 }
