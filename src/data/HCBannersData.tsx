@@ -2,6 +2,7 @@ import { appStrings } from "../strings";
 import firstBannerImage from '../assets/images/banners/first_banner.png';
 import secondBannerImage from '../assets/images/banners/second_banner.png';
 import thirdBannerImage from '../assets/images/banners/third_banner.png';
+import downloadIcon from '../assets/images/icons/arrow.svg';
 
 const banners: HCBannerProps[] = [
     {
@@ -24,6 +25,7 @@ const banners: HCBannerProps[] = [
         title: appStrings.bannerTitle3,
         bodyText: appStrings.bannerText3,
         buttonText: appStrings.bannerButton3,
+        buttonIcon: downloadIcon,
         bannerImg: thirdBannerImage,
         isMainBanner: false,
         isReversed: false,
