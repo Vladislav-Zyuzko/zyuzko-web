@@ -1,68 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-family: 'Mulish';
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light;
 
-  font-synthesis: none;
+  --primary-white: #fff;
+
+  --dim-white: rgba(255, 255, 255, 0.90);
+
+  --low-dim-white: rgba(255, 255, 255, 0.85);
+
+  --shadow-white: rgba(229, 233, 246, 0.4);
+
+  --primary-gradient: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+  --slider-gradient: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+
+  --primary-blue: #458FF6;
+
+  --cornflower-blue: #5B9BF3;
+
+  --aqua-blue: #4089ED;
+
+  --primary-gray: #7D7987;
+
+  --midnight-black: #233348;
+  --blackcurrant-black: #1F1534;
+  --primary-black: #000;
+
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: var(--primary-color);
+    background-color: var(--primary-white);
+  }
+  a {
+    text-decoration: none;
   }
   a:hover {
-    color: #747bff;
+    color: var(--midnight-black);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--primary-white);
+  }
+
+  h1, h2, h3, h4, h5, p {
+    margin: 0px;
   }
 }
+
+

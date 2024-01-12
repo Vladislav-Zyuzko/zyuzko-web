@@ -1,0 +1,99 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1247px;
+    width: 100%;
+}
+
+.mainBannerTitle, .bannerTitle {
+    font-weight: 700;
+    color: var(--primary-black);
+}
+
+.mainBannerTitle {
+    font-size: 48px;
+    max-width: 427px;
+}
+
+.bannerTitle {
+    font-size: 36px;
+    margin-bottom: 30px;
+    max-width: 320px;
+}
+
+.mainBannerText, .bannerText {
+    color: var(--primary-gray);
+    font-weight: 300;
+}
+
+.mainBannerText {
+    font-size: 21px;
+    margin-top: 25px;
+    line-height: 32px;
+    margin-bottom: 45px;
+    max-width: 427px;
+}
+
+.bannerText {
+    font-size: 18px;
+    margin-top: 31px;
+    line-height: 30px;
+    max-width: 460px;
+}
+
+
+
+@media (max-width: 768px) {
+    .mainBannerTitle {
+        font-size: 30px;
+        max-width: 205px;
+    }
+
+    .bannerTitle {
+        font-size: 25px;
+        margin-bottom: 15px;
+        max-width: 230px;
+    }
+
+    .mainBannerText {
+        font-size: 16px;
+        margin-top: 11.5px;
+        line-height: 22px;
+        margin-bottom: 21.6px;
+        max-width: 205px;
+    }
+
+    .bannerText {
+        font-size: 16px;
+        margin-top: 14.7px;
+        line-height: 22px;
+        max-width: 221px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainBannerTitle {
+        font-size: 24px;
+        max-width: 200px;
+    }
+
+    .bannerTitle {
+        font-size: 20px;
+        margin-bottom: 9.4px;
+        max-width: 200px;
+    }
+
+    .mainBannerText {
+        font-size: 14px;
+        margin-top: 7.2px;
+        margin-bottom: 13.5px;
+        max-width: 200px;
+    }
+
+    .bannerText {
+        font-size: 14px;
+        margin-top: 9.18px;
+        max-width: 200px;
+    }
+}

@@ -1,0 +1,302 @@
+#banner1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 77.93%;
+    margin-left: 11.88%;
+    margin-right: 10.19%;
+    margin-top: 84px;
+}
+
+#banner1 img {
+    width: 55.82%;
+}
+
+#banner2 {
+    display: flex;
+    align-items: center;
+    width: 77.62%;
+    margin-left: 8.44%;
+    margin-right: 13.94%;
+    margin-top: 220px;
+}
+
+#banner2 img {
+    width: 52.125%;
+}
+
+#banner2 button {
+    margin-top: 70px;
+}
+
+#banner3 {
+    align-items: center;
+    display: flex;
+    width: 72.25%;
+    margin-left: 17.5%;
+    margin-right: 10.25%;
+    margin-top: 229px;
+}
+
+#banner3 img {
+    width: 57.5%;
+}
+
+#banner3 button {
+    margin-top: 40px;
+}
+
+#servicesTitle {
+    width: 100%;
+    margin-top: 192px;
+    margin-bottom: 33px;
+}
+
+#servicesDescription {
+    display: flex;
+    width: 66%;
+    padding: 0% 17%;
+    color: var(--primary-gray);
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#servicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 34px;
+    column-gap: 37px;
+    margin-top: 80px;
+}
+
+#servicesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+}
+
+#articlesTitle {
+    width: 100%;
+    margin-top: 227px;
+    margin-bottom: 79px;
+}
+
+#articlesContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 34px;
+    row-gap: 25px;
+}
+
+#articlesButtonContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 72px;
+    margin-bottom: 200px;
+}
+
+#sliderContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 250px;
+}
+
+@media (max-width: 1200px) {
+    #banner1 {
+        width: 85%;
+        margin-top: 63px;
+        margin-left: 8%;
+        margin-right: 7%;
+    }
+
+    #banner2 {
+        margin-top: 165px;
+        width: 85%;
+        margin-left: 6%;
+        margin-right: 9%;
+    }
+
+    #banner2 button {
+        margin-top: 52.5px;
+    }
+
+    #banner3 {
+        width: 80%;
+        margin-left: 13%;
+        margin-right: 7%;
+        margin-top: 172px;
+    }
+
+    #banner3 button{
+        margin-top: 30px;
+    }
+
+    #sliderContainer {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    #banner1 {
+        margin-top: 40px;
+    }
+
+    #banner2 {
+        width: 85%;
+        margin-left: 6%;
+        margin-right: 9%;
+        margin-top: 106px;
+    }
+
+    #banner2 button {
+        margin-top: 34px;
+    }
+
+    #banner3 {
+        margin-top: 110px;
+    }
+
+    #banner3 button{
+        margin-top: 19px;
+    }
+
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 18px;
+        margin-top: 50px;
+    }
+
+    #servicesTitle {
+        margin-top: 90px;
+        margin-bottom: 33px;
+    }
+
+    #servicesDescription {
+        width: 75%;
+        padding: 0% 12.5%;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 50px;
+    }
+
+    #articlesTitle {
+        margin-top: 127px;
+        margin-bottom: 45px;
+    }
+    
+    #articlesContainer {
+        column-gap: 24px;
+        row-gap: 20px;
+    }
+    
+    #articlesButtonContainer {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    #sliderContainer {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    #banner1 {
+        width: 95%;
+        margin-left: 3%;
+        margin-right: 2%;
+        margin-top: 45px;
+    }
+
+    #banner1 img {
+        width: 45.82%;
+    }
+
+    #banner2 {
+        width: 95%;
+        margin-left: 1.5%;
+        margin-right: 3.5%;
+        margin-top: 66px;
+    }
+
+    #banner2 img {
+        width: 45%;
+    }
+    
+
+    #banner2 button {
+        margin-top: 21px;
+    }
+
+    #banner3 {
+        width: 95%;
+        margin-left: 3.66%;
+        margin-right: 2.34%;
+        margin-top: 69px;
+    }
+
+    #banner3 img {
+        width: 48.5%;
+    }
+
+    #banner3 button{
+        margin-top: 12px;
+    }
+
+    #servicesContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 14px;
+        column-gap: 10px;
+        margin-top: 40px;
+    }
+
+    #servicesDescription {
+        width: 80%;
+        padding: 0% 10%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    #servicesButtonContainer {
+        margin-top: 32px;
+    }
+
+    #articlesTitle {
+        margin-top: 80px;
+        margin-bottom: 37px;
+    }
+    
+    #articlesContainer {
+        justify-content: left;
+        column-gap: 20px;
+        row-gap: 16px;
+    }
+    
+    #articlesButtonContainer {
+        margin-top: 35px;
+        margin-bottom: 80px;
+    }
+
+    #sliderContainer {
+        margin-top: 100px;
+    }
+}

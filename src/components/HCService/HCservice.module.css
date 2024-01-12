@@ -1,0 +1,100 @@
+.serviceButton {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 350px;
+    height: 354px;
+    background-color: var(--primary-white);
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px var(--shadow-white);
+    padding: 0px 39px;
+    font-family: 'Mulish';
+    transition: 0.5s;
+}
+
+.serviceButton:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.serviceButton:active {
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+
+.serviceImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 167px;
+}
+
+.serviceImage {
+    max-height: 55%;
+}
+
+.serviceTitle {
+    display: flex;
+    color: var(--primary-black);
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.serviceDescription {
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--primary-gray);
+}
+
+@media (max-width: 768px) {
+    .serviceButton {
+        width: 240px;
+        height: 260px;
+        padding: 0px 10px;
+    }
+
+    .serviceImageContainer {
+        width: 100%;
+        height: 108px;
+    }
+
+    .serviceTitle {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 46px;
+    }
+
+    .serviceDescription {
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .serviceButton {
+        width: 170px;
+        height: 200px;
+        padding: 0px 10px;
+    }
+
+    .serviceImageContainer {
+        width: 100%;
+        height: 68px;
+    }
+
+    .serviceTitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .serviceDescription {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

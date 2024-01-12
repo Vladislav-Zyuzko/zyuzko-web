@@ -1,0 +1,74 @@
+.outlinedButton, .fillButton {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: flex;
+    width: 200px;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Mulish';
+    transition: 0.7s;
+}
+
+.HCicon {
+    transform: rotate(90deg);
+    margin-left: 8.79px;
+    max-width: 15.434px;
+    height: 9.821px;
+}
+
+.outlinedButton {
+    border: 1.4px solid var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.fillButton {
+    color: var(--primary-white);
+    background-color: var(--primary-blue);
+    border: none;
+}
+
+.outlinedButton:hover {
+    transition: 0.7s;
+    fill: var(--midnight-black);
+    border: 1.4px solid var(--midnight-black);
+    color: var(--midnight-black);
+}
+
+.fillButton:hover {
+    transition: 0.7s;
+    fill: var(--midnight-black);
+    background-color: var(--midnight-black);
+}
+
+.fillButton:active, .outlinedButton:active {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+    .outlinedButton, .fillButton {
+        width: 150px;
+        height: 42px;
+        font-size: 16px;
+    }
+
+    .HCicon {
+        margin-left: 6.59px;
+        max-width: 11.58px;
+        height: 7.37px;
+    }
+}
+
+@media (max-width: 480px) {
+    .outlinedButton, .fillButton {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+}

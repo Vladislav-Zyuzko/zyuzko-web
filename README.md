@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Описание проекта
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+<img src="images/Effective.png" alt="Effective" style="margin-right: 50px;"> <img src="images/OmSTU.png" alt="OmSTU" style="margin-right: 50px;"> <img src="images/React.png" alt="React">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+&NewLine;
 
-## Expanding the ESLint configuration
+&NewLine;
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Данная работа была выполнена в рамках прохождения курса «Профессиональная разработка мобильных приложений» от компании Effective с целью получения первичных навыков в работе с ```Java Script``` библиотекой __React__.
 
-- Configure the top-level `parserOptions` property like this:
+Средствами представленной технологии необходимо было реализовать макет, доступный по ссылке: https://www.figma.com/file/4HxKAipeUl0XV4poXyxvnv/Effective-Web-Course?node-id=58%3A273&mode=dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+&NewLine;
+В результате работы с помощью библиотеки __React__ был спроектирован сайт, поддерживаемый разрешения экрана от стандартного десктопного до мобильного:
+&NewLine;
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```Используемая версия NodeJS - 20.10.0```
+
+```Используемая версия npm - 10.2.5```
+
+## Десктопный вариант (1500px)
+
+<img src="images/desktop.png" alt="desktop">
+
+## Планшентный вариант (768px)
+<img src="images/medium.png" alt="medium">
+
+## Мобильный вариант (iPhone SE, 375px)
+<img src="images/mobile.png" alt="mobile">
